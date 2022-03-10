@@ -14,6 +14,9 @@ spring:
         format_sql: true
 #        use_sql_comment: true
 
+  profiles:
+    active: local
+
 logging.level:
   org.hibernate.SQL: debug
 #  org.hibernate.type: trace
